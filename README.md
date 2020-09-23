@@ -7,4 +7,6 @@
 + Electron是由Github开发的开源框架
 + 它允许开发者使用Web技术构建跨平台的桌面应用
 
+> Electron = Chromium + Node.js + Native API
+
 
