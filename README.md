@@ -42,8 +42,8 @@
 ![](https://github.com/tianshaojun/Electron/blob/master/md_img/03.png)
 
 + issue
-  1. 111
-  2. 222
+  1. 读取文件路径问题(相对路径和只写文件名都可以)
+  2. 刷新页面后读取文件失败
 
 
 
