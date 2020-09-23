@@ -19,6 +19,18 @@
 + 启动命令
    + ./node_modules/.bin/electron
 
+### 3.hello world
+
++ 全局安装electron
+   + npm install -g electron
++ 初始化package.json文件  
+   + npm init --yes
++ 打开窗口
+   + electron .
+
+### 4.邀请小姐姐程序
+
+
 
    
 
