@@ -28,7 +28,19 @@
 + 打开窗口
    + electron .
 
-### 4.邀请小姐姐程序
+### 4.读取文件
+
+> Electron的运行流程
+
+![](https://github.com/tianshaojun/Electron/blob/master/md_img/02.png)
+
+> Electron的主进程和渲染进程
+
++ package.json中定义的入口文件就是主进程，一般一个程序只有一个主进程
++ 我们写的html部分可以看成渲染进程
+
+![](https://github.com/tianshaojun/Electron/blob/master/md_img/03.png)
+
 
 
 
