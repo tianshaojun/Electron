@@ -9,4 +9,17 @@
 
 > Electron = Chromium + Node.js + Native API
 
+### 2.开发环境搭建
+
++ 安装electron  
+   + npm install electron --save-dev
++ 检验安装是否成功  
+   + npx electron -v
+   + ./node_modules/.bin/electron -v
++ 启动命令
+   + ./node_modules/.bin/electron
+
+
+   
+
 
