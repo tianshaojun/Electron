@@ -61,6 +61,12 @@
 + 程序打开调试模式
   + mainWindow.webContents.openDevTools()
 
+### 8.通过链接打开浏览器
+
++ shell模块
+
+
+
 
 
 

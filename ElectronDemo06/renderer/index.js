@@ -27,10 +27,19 @@ var m = remote.Menu.buildFromTemplate(rightTemplate);
 window.addEventListener('contextmenu', function(e){
 
     //阻止当前窗口默认事件
-    e.preventDefault();
+    e.preventDefault(e);
     //把菜单模板添加到右键菜单
     m.popup({window:remote.getCurrentWindow()});
 })
 
 
-//
+//通过链接打开浏览器
+var { shell } = require('electron');
+
+var aHref = document.querySelector('#aHref');
+
+aHref.onclick = function(e){
+    e.preventDefault();
+    var href = this.getAttribute('href');
+    shell.openExternal(href);
+}
