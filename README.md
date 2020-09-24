@@ -48,9 +48,12 @@
 ### 5.Remote模块使用
 
 + issue
-  1. enableRemoteModule:true  //允许渲染进程中使用remote
+  1. enableRemoteModule:true  允许渲染进程中使用remote
 
 ### 6.创建菜单和基本使用
+
++ Menu模块
+
 
 
 
