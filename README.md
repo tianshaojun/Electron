@@ -54,6 +54,17 @@
 
 + Menu模块
 
+### 7.右键菜单制作
+
++ 菜单快捷键绑定
+  + accelerator:`ctrl+n`
++ 程序打开调试模式
+  + mainWindow.webContents.openDevTools()
+
+
+
+
+
 
 
 
