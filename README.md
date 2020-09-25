@@ -65,6 +65,14 @@
 
 + shell模块
 
+### 9.嵌入网页和打开子窗口
+
++ 嵌入网页
+  + BrowserView (Browser是主进程中的类，只能在主进程中使用)
++ 打开子窗口
+  + window.open('https://www.baidu.com/');
+  
+
 
 
 
