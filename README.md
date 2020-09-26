@@ -89,6 +89,11 @@
       3. buttonLabel: String(可选)，确认按钮的自定义标签
       4. filters: 文件选择过滤器
 
+### 12.保存对话框
+  
+   + dialog.showSaveDialog()
+ 
+
 
 
 
