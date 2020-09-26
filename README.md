@@ -81,6 +81,15 @@
   + 父窗口接收信息
      + window.addEventListener
 
+### 11.选择文件对话框
+   
+   + dialog.showOpenDialog()
+      1. title: String(可选)，对话框的标题
+      2. defaultPath: String(可选)，默认打开的路径
+      3. buttonLabel: String(可选)，确认按钮的自定义标签
+      4. filters: 文件选择过滤器
+
+
 
 
 
