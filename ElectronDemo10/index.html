@@ -15,6 +15,17 @@
        <img id="images" style="width:500px;height:300px;" />
        <button id="saveBtn">保存文件</button>
        <button id="messageBtn">弹出对话框</button>
+       <br>
+       <h2>jspang.com 断网提醒测试</h2>
        <script src="./renderer/index.js"></script>
-    </body>   
+    </body>
+    <script>
+       window.addEventListener('online',function(){
+          alert('官人，我来了，我们继续哦！');
+       })
+
+       window.addEventListener('offline',function(){
+          alert('小女子先行离开一会，请稍等！');
+       })
+    </script>  
 </html>    
