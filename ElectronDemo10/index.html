@@ -17,9 +17,11 @@
        <button id="messageBtn">弹出对话框</button>
        <br>
        <h2>jspang.com 断网提醒测试</h2>
+       <button id="notifyBtn">通知消息</button>
        <script src="./renderer/index.js"></script>
     </body>
     <script>
+       //断网提醒功能
        window.addEventListener('online',function(){
           alert('官人，我来了，我们继续哦！');
        })
@@ -27,5 +29,19 @@
        window.addEventListener('offline',function(){
           alert('小女子先行离开一会，请稍等！');
        })
+
+
+       //底部通知消息
+       var notifyBtn = document.getElementById('notifyBtn');
+
+       var option = {
+          title:'小二，来订单了，出来接客了!',
+          body:'有大官人刚翻了你的牌子'
+       }
+
+       notifyBtn.onclick = function() {
+          new window.Notification(option.title, option);
+       }
+
     </script>  
 </html>    
