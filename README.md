@@ -92,6 +92,10 @@
 ### 12.保存对话框
   
    + dialog.showSaveDialog()
+   
+### 13.消息对话框
+
+   + dialog.showMessageBox()
 
 
  
