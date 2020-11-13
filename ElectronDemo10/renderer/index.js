@@ -92,3 +92,18 @@ saveBtn.onclick = function(){
         console.log(err);
     })
 }
+
+
+//消息对话框
+var messageBtn = document.getElementById('messageBtn');
+
+messageBtn.onclick = function () {
+    dialog.showMessageBox({
+        type: 'warning',
+        title: '去不去由你',
+        message: '是不是要跟胖哥去红袖招?',
+        buttons:['我要去','我不去']
+    }).then(result => {
+        console.log(result);
+    })
+}
