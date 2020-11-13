@@ -96,6 +96,13 @@
 ### 13.消息对话框
 
    + dialog.showMessageBox()
+   
+### 14.断网提醒功能
+
+   + online
+   + offline
+
+
 
 
  
