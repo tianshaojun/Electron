@@ -102,6 +102,10 @@
    + online: 如果链接上网络，就会触发该事件
    + offline: 如果突然断网了，就会触发该事件
 
+### 15.底部通知消息
+
+   + window.Notification
+
 
 
 
