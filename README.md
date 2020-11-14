@@ -105,6 +105,12 @@
 ### 15.底部通知消息
 
    + window.Notification
+   
+### 16.electron注册全局快捷键
+
+   + globalShortcut
+
+### 17.11111
 
 
 
