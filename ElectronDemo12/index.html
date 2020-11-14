@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        激活码：<span id="code">jspangcom1234234242</span><button id="btn">复制激活码</button>
+    </div>
+</body>
+<script>
+    const {clipboard} = require('electron');
+
+    const code = document.getElementById('code');
+    const btn = document.getElementById('btn');
+    btn.onclick = function(){
+        console.log('111')
+        clipboard.writeText(code.innerHTML);
+        alert('复制成功');
+    }
+</script>
+</html>
