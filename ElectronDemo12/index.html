@@ -16,7 +16,6 @@
     const code = document.getElementById('code');
     const btn = document.getElementById('btn');
     btn.onclick = function(){
-        console.log('111')
         clipboard.writeText(code.innerHTML);
         alert('复制成功');
     }
