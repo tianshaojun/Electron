@@ -110,7 +110,11 @@
 
    + globalShortcut
 
-### 17.11111
+### 17.electron剪贴板事件
+
+   + clipboard
+  
+  
 
 
 
