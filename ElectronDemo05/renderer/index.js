@@ -31,6 +31,3 @@ window.addEventListener('contextmenu', function(e){
     //把菜单模板添加到右键菜单
     m.popup({window:remote.getCurrentWindow()});
 })
-
-
-//
